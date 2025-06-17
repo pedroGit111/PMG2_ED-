@@ -1,5 +1,11 @@
 package pmg_extraordinaria_ed;
 
+/**
+ * @author Pedro Martorell desarrollador de java 	
+ * @version 1.0.1
+ * 
+ * Esta clase es una clase modelo de círculo para crear objetos círculo en el proyecto con los atributos establecidos.
+ */
 public class PMG_Circulo {
 	
 	private int id;
@@ -13,6 +19,14 @@ public class PMG_Circulo {
 	}
 
 	// Constructor parametrizado
+	/**
+	 * @param id
+	 * @param nombre
+	 * @param radio
+	 * @param color
+	 * 
+	 * Constructor en el que se incluyen todos los argumentos para generar un objeto círculo el la clase principal
+	 */
 	public PMG_Circulo(int id, String nombre, double radio, String color) {
 		super();
 		this.id = id;
@@ -65,6 +79,9 @@ public class PMG_Circulo {
 	
 
 	// Método ToString
+	/**
+	 *@return printea una cadena 
+	 */
 	@Override
 	public String toString() {
 		return "PMG_Circulo [id=" + id + ", nombre=" + nombre + ", radio=" + radio + ", color=" + color + "]";
