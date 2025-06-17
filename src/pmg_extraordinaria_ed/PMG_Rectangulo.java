@@ -1,5 +1,10 @@
 package pmg_extraordinaria_ed;
-
+/**
+ * @author Pedro Martorell desarrollador de java 	
+ * @version 1.0.1
+ * 
+ * Esta clase es una clase modelo de rectángulo para crear objetos rectángulo en el proyecto con los atributos establecidos.
+ */
 public class PMG_Rectangulo {
 
 	private int id;
@@ -13,6 +18,13 @@ public class PMG_Rectangulo {
 	}
 
 	// Constructor parametrizado
+	/**
+	 * @param ladoA
+	 * @param ladoB
+	 * @param color
+	 * 
+	 * Constructor en el que se incluyen todos los argumentos para generar un objeto rectángulo el la clase principal
+	 */
 	public PMG_Rectangulo( double ladoA, double ladoB, String color) {
 		super();
 		this.ladoA = ladoA;
@@ -54,6 +66,9 @@ public class PMG_Rectangulo {
 	}
 
 	// Método ToString
+	/**
+	 *@return printea una cadena
+	 */
 	@Override
 	public String toString() {
 		return "PMG_Rectangulo [id=" + id + ", ladoA=" + ladoA + ", ladoB=" + ladoB + ", color=" + color + "]";
