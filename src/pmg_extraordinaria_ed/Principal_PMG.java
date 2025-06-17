@@ -20,8 +20,8 @@ public class Principal_PMG {
 		PMG_Circulo circulo1 = new PMG_Circulo();
 		PMG_Circulo circulo2 = new PMG_Circulo(479, "A", 6.5, "verde");
 		
-		PMG_Rectangulo2 rectangulo1 = new PMG_Rectangulo2();
-		PMG_Rectangulo2 rectangulo2 = new PMG_Rectangulo2(3.5, 1.7, "blanco");
+		PMG_Rectangulo rectangulo1 = new PMG_Rectangulo();
+		PMG_Rectangulo rectangulo2 = new PMG_Rectangulo(3.5, 1.7, "blanco");
 		
 				
 		/**
@@ -48,7 +48,7 @@ public class Principal_PMG {
 		
 	}
 
-	public static void extracted(PMG_Circulo circulo1, PMG_Rectangulo2 rectangulo1, double diferencia) {
+	public static void extracted(PMG_Circulo circulo1, PMG_Rectangulo rectangulo1, double diferencia) {
 		System.out.println("Rectangulo: "+rectangulo1);
 		System.out.println("Circulo: "+circulo1);
 		System.out.println("Diferencia: "+diferencia);
@@ -67,11 +67,11 @@ public class Principal_PMG {
 		return area2;
 	}
 
-	public static double extracted(PMG_Rectangulo2 rectangulo1, PMG_Rectangulo2 rectangulo2) {
+	public static double extracted(PMG_Rectangulo rectangulo1, PMG_Rectangulo rectangulo2) {
 		double ladoA = rectangulo1.getLadoA();
 		double ladoB = rectangulo2.getLadoB();
 		double area1 = ladoA * ladoB;
-		double area1 = ladoA * ladoB;
+		double area2 = ladoA * ladoB;
 		System.out.println("Area rectangulo  :+area1");
 		return area1;
 	}
