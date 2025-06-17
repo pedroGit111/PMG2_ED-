@@ -86,10 +86,19 @@ public class PMG_Circulo {
 	public String toString() {
 		return "PMG_Circulo [id=" + id + ", nombre=" + nombre + ", radio=" + radio + ", color=" + color + "]";
 	}
-	
-	
-	
-	
+
+	/**
+	 * @param area1
+	 * @param area2
+	 * @return
+	 * 
+	 * Calcula area circulo pi*R2
+	 */
+	private static double CalcularAreaCirculo(double area1, double area2) {
+		double diferencia = area1-area2;
+		System.out.println("Diferencia áreas: "+diferencia);
+		return diferencia;
+	}
 	
 	
 

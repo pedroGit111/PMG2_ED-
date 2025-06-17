@@ -74,6 +74,22 @@ public class PMG_Rectangulo {
 		return "PMG_Rectangulo [id=" + id + ", ladoA=" + ladoA + ", ladoB=" + ladoB + ", color=" + color + "]";
 	}
 	
+	/**
+	 * @param rectangulo1
+	 * @param rectangulo2
+	 * @return
+	 * 
+	 * Calcula area rectangulo ladoA * ladoB
+	 */
+	public static double CalcularArearectangulo(PMG_Rectangulo rectangulo1, PMG_Rectangulo rectangulo2) {
+		double ladoA = rectangulo1.getLadoA();
+		double ladoB = rectangulo2.getLadoB();
+		double area1 = ladoA * ladoB;
+		double area2 = ladoA * ladoB;
+		System.out.println("Area rectangulo  :+area1");
+		return area1;
+	}
+	
 	
 	
 	
